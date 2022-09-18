@@ -1,0 +1,39 @@
+.proj_comp_container{
+    color:white;
+    display: flex;
+    width: 45%;
+    border: 1px solid green;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    /* align-items: center; */
+    margin: 30px 0px;
+}
+.proj_comp_container > img{
+    
+    width: 100%;
+}
+.proj_comp_title{
+    text-align: center;
+    color: red;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.proj_comp_link{
+    color: red;
+    font-size:24px ;
+    font-weight: bold;
+}
+
+.proj_comp_state{
+    /* border: 1px solid greenyellow; */
+    font-size: 18px;
+
+}
+.url{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}

@@ -1,0 +1,21 @@
+.ex_container{
+    color:white;
+    margin-top: 20px;
+    /* border: 1px solid blue; */
+    padding: 50px 40px;
+    
+    /* background-color: black; */
+}
+.ex_title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.ex_boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: row; */
+}

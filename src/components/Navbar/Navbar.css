@@ -1,0 +1,29 @@
+
+
+.navbar_container{
+    background-color: black;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    padding: 15px 7%;
+    
+    align-items: center;
+    color: white;
+    /* border: 10px solid green; */
+}
+.left{
+    /* background-color: yellow; */
+    font-size: 25px;
+    color: red;
+    font-weight: 700;
+}
+.right>a{
+    font-size: 18px;
+    margin:0 2%;
+    text-decoration: none;
+    color: white;
+}
+.right>a:hover{
+    cursor: pointer;
+}

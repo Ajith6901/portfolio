@@ -1,0 +1,30 @@
+.experience_box{
+    /* border: 1px solid red; */
+    background-color: #181818;
+    box-shadow: -8px 5px 5px red;
+    margin: 20px ;
+    padding:20px;
+    width: 550px;
+}
+.expBoxTitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* .expBoxtext{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+} */
+.exp_techused{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.exp_techused > img{
+    height: 50px; ;
+    padding: 10px 0px ;
+}
+.experience_box>div{
+    font-size: 20px;
+}

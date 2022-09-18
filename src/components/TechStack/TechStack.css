@@ -1,0 +1,41 @@
+.ts_container{
+    color:white;
+    justify-content: center;
+    margin-left: 0 2%;
+    padding: 40px 7%;
+    /* border: 1px solid red; */
+    background-color: #181818;;
+    
+}
+.ts_image{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+     /* when screen ends move to next line */
+}
+.ts_title{
+font-size: 28px;
+text-align: center;
+font-weight: bold;
+
+
+}
+.ts_image>div{
+    padding: 30px;
+    
+    
+}
+.ts_image > div > img{
+    width: 250px;
+}
+
+.ts_image > div {
+    
+    align-items: center;
+}
+.ts_image > div >p{
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}

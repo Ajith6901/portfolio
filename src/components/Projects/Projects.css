@@ -1,0 +1,23 @@
+.projects_container
+{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    background-color:  #181818;
+    padding:50px 0px;
+}
+.projects_title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.Project_comp_container{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
