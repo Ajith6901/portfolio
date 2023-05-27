@@ -7,13 +7,14 @@
     flex-wrap:wrap ;
     justify-content: space-between;
     padding: 15px 7%;
-    
+    position: sticky;
+  top: 0px;
     align-items: center;
     color: white;
     /* border: 10px solid green; */
 }
-.left{
-    /* background-color: yellow; */
+.left>a{
+    text-decoration: none;
     font-size: 25px;
     color: red;
     font-weight: 700;

@@ -1,19 +1,23 @@
 import React from 'react'
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 export default function Navbar() {
     const x = "<AM/>"
     return (
     <div className='navbar_container'>
+        
+        
         <div className='left'> 
             {/* left Div  */}
-            {x}
+            <a href="/">{x}</a>
         </div>
+        
 
         <div className='right'>
-            <a href='/portfolio/src/file/Resume.pdf' download='Resume.pdf'>Resume</a>
-            <a href=''>Tools</a>
-            <a >Experience</a>
-            <a>Projects</a>
+            <a href='https://drive.google.com/file/d/1n3xd6Fj22CdI971PJs4-Yr6Ydd0n9rAy/view?usp=sharing'>Resume</a>
+            <a href='#tools'>Tools</a>
+            <a href='#exp'>Experience</a>
+            {/* <a href='#projects'>Projects</a> */}
             
             
             {/* right div */}

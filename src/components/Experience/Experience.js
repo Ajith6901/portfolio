@@ -5,12 +5,22 @@ function Experience({x}) {
   
   
   return (
-    <div className='ex_container'>
+    <div id='exp' className='ex_container'>
             <div className='ex_title'> {x}</div>
             <div className='ex_boxes'>
                 {/* Experience Box */}
                 <ExperienceBox
-                heading={"Library development  intern "}
+                heading={"Power Solutions development  intern - Robert Bosch Ltd "}
+                stat1={" The first project is called the Associate Training Management Portal and is referred to as 'Pragati.'"}
+                stat2={" The main objective of the project was to streamline the training process within the organization"}
+                stat3={" The project had several goals, including improving training efficiency and enhancing the user experience."}
+                stat4={"The second project involved the development of a Preventive Maintenance Inspection (PMI) application"}
+                stat5={" The project aimed to improve maintenance processes and increase equipment reliability through effective scheduling and conducting of inspections."}
+                stat6={"The project utilized Microsoft Power Apps, Power Automate, and Power BI to develop a user-friendly web application"}
+                />
+
+                <ExperienceBox
+                heading={"Library development  intern -  App Lib Community"}
                 stat1={" This internship was provided by the Application Library Engineering Group."}
                 stat2={" Application  Library Engineering group is an open source community comprising of development enthusiast for HarmonyOS library development."}
                 stat3={" As a part of this internship , I developed a Javascript Library for SmartBike console."}
@@ -31,7 +41,7 @@ function Experience({x}) {
                 />
 
                 <ExperienceBox
-                heading={" Web development intern "}
+                heading={" Web development intern -  TSF"}
                 stat1={" This internship was provided by The Sparks Foundation."}
                 stat2={" The Sparks Foundation  is a community which provides students interships and as a part of it they have to create real-world projects."}
                 stat3={" As a part of this internship , I developed a Basic Banking System."}
